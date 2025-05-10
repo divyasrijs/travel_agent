@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 
 # Initialize Cohere client
-co = cohere.Client('aBu7GGmHlDVV0rfxBXBlTlIwFvPoIE2PD8uLkHtO')
+co = cohere.Client('YOUR_API_KEY')
 
 # Function to generate itinerary
 def get_itinerary(destination, days, interests):
